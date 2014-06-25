@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>AFE34918-B27A-4FF2-A949-CA4284C9BAF9</string>
+	<string>BD05F906-9240-4142-B142-977559284329</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Fling</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>514238D0-5BCE-4079-8AB4-A705519CEAE2</key>
-		<string>ssh://github.com/rwi6/Fling.git</string>
+		<string>https://github.com/rwi6/Fling.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Fling.xcodeproj/project.xcworkspace</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/rwi6/Fling.git</string>
+	<string>https://github.com/rwi6/Fling.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

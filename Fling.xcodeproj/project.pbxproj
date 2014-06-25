@@ -14,13 +14,14 @@
 		400B00B219594547005A181F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B00B119594547005A181F /* main.m */; };
 		400B00B619594547005A181F /* MPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B00B519594547005A181F /* MPAppDelegate.m */; };
 		400B00B919594547005A181F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B00B719594547005A181F /* Main.storyboard */; };
-		400B00BC19594547005A181F /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B00BB19594547005A181F /* MPViewController.m */; };
 		400B00BE19594547005A181F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B00BD19594547005A181F /* Images.xcassets */; };
 		400B00C519594547005A181F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400B00C419594547005A181F /* XCTest.framework */; };
 		400B00C619594547005A181F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400B00A519594547005A181F /* Foundation.framework */; };
 		400B00C719594547005A181F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400B00A919594547005A181F /* UIKit.framework */; };
 		400B00CF19594547005A181F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 400B00CD19594547005A181F /* InfoPlist.strings */; };
 		400B00D119594547005A181F /* FlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B00D019594547005A181F /* FlingTests.m */; };
+		40143A5A19595CB2000EC37D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40143A5919595CB2000EC37D /* CoreLocation.framework */; };
+		40143A62195A9E24000EC37D /* MPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40143A61195A9E24000EC37D /* MPViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +47,14 @@
 		400B00B519594547005A181F /* MPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPAppDelegate.m; sourceTree = "<group>"; };
 		400B00B819594547005A181F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400B00BA19594547005A181F /* MPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPViewController.h; sourceTree = "<group>"; };
-		400B00BB19594547005A181F /* MPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
 		400B00BD19594547005A181F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		400B00C319594547005A181F /* FlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400B00C419594547005A181F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		400B00CC19594547005A181F /* FlingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlingTests-Info.plist"; sourceTree = "<group>"; };
 		400B00CE19594547005A181F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		400B00D019594547005A181F /* FlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlingTests.m; sourceTree = "<group>"; };
+		40143A5919595CB2000EC37D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		40143A61195A9E24000EC37D /* MPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40143A5A19595CB2000EC37D /* CoreLocation.framework in Frameworks */,
 				400B00A819594547005A181F /* CoreGraphics.framework in Frameworks */,
 				400B00AA19594547005A181F /* UIKit.framework in Frameworks */,
 				400B00A619594547005A181F /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		400B00A419594547005A181F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40143A5919595CB2000EC37D /* CoreLocation.framework */,
 				400B00A519594547005A181F /* Foundation.framework */,
 				400B00A719594547005A181F /* CoreGraphics.framework */,
 				400B00A919594547005A181F /* UIKit.framework */,
@@ -116,7 +120,7 @@
 				400B00B519594547005A181F /* MPAppDelegate.m */,
 				400B00B719594547005A181F /* Main.storyboard */,
 				400B00BA19594547005A181F /* MPViewController.h */,
-				400B00BB19594547005A181F /* MPViewController.m */,
+				40143A61195A9E24000EC37D /* MPViewController.m */,
 				400B00BD19594547005A181F /* Images.xcassets */,
 				400B00AC19594547005A181F /* Supporting Files */,
 			);
@@ -251,7 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400B00B219594547005A181F /* main.m in Sources */,
-				400B00BC19594547005A181F /* MPViewController.m in Sources */,
+				40143A62195A9E24000EC37D /* MPViewController.m in Sources */,
 				400B00B619594547005A181F /* MPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +461,7 @@
 				400B00D619594547005A181F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400B00D719594547005A181F /* Build configuration list for PBXNativeTarget "FlingTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +470,7 @@
 				400B00D919594547005A181F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
